@@ -48,7 +48,7 @@ class Program
             string jsonOutput = JsonConvert.SerializeObject(jsonContent, Formatting.Indented);
             File.WriteAllText(filePath, jsonOutput);
             Console.WriteLine($"File created: {numberedFileName}");
-        }
+        } 
     }
     static string CleanWord(string word)
     {
